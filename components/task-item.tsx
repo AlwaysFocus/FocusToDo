@@ -10,7 +10,8 @@ import {
   Input,
   useToken
 } from 'native-base'
-import AnimatedCheckbox from 'react-native-checkbox-reanimated'
+// import AnimatedCheckbox from 'react-native-checkbox-reanimated'
+import AnimatedCheckbox from './animated-checkbox'
 import AnimatedTaskLabel from './animated-task-label'
 import SwipableView from './swipable-view'
 import { Feather } from '@expo/vector-icons'

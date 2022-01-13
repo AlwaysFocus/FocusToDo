@@ -1,6 +1,12 @@
-import React, {useEffect, memo} from 'react'
-import Animated, {Easing, useSharedValue, useAnimatedProps, withTiming, interpolateColor} from 'react-native-reanimated'
-import Svg, {Path, Defs, ClipPath, G} from 'react-native-svg'
+import React, { useEffect } from 'react'
+import Animated, {
+  Easing,
+  useSharedValue,
+  useAnimatedProps,
+  withTiming,
+  interpolateColor
+} from 'react-native-reanimated'
+import Svg, { Path, Defs, ClipPath, G } from 'react-native-svg'
 import AnimatedStroke from './animated-stroke'
 
 const MARGIN = 10

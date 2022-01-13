@@ -22,7 +22,7 @@ const AboutScreen = () => {
       w="full"
     >
       <Header
-        title="About this app"
+        title="Finally"
         image={require('../assets/header.png')}
       >
         <Navbar />
@@ -46,9 +46,7 @@ const AboutScreen = () => {
               alt="author"
             />
           </Box>
-          <Text fontSize="md" w="full">
-            A React Native ToDo app.
-          </Text>
+          
           <LinkButton
             colorScheme="red"
             size="lg"

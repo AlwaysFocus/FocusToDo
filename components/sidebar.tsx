@@ -19,7 +19,7 @@ const Sidebar = (props: DrawerContentComponentProps) => {
     const currentRoute = state.routeNames[state.index]
 
     const handlePressBackButton = useCallback(() => {
-        navigation.closeDrawer
+        navigation.closeDrawer()
     }, [navigation])
 
     const handlePressMenuMain = useCallback(() => {
